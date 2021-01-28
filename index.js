@@ -31,7 +31,7 @@ app.get("/search", limiter, (req, res) => {
         num: n,
         lang: l,
         country: c,
-        price: p,
+        price: p,   
       })
       .then((data) => {
         res.send(data);
